@@ -1,0 +1,55 @@
+.cnDetailedCardRoot {
+display: flex;
+flex-direction: column;
+width: 600px;
+border: 1px solid #dbdbdb;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.cnDetailedCardHeader {
+display: flex;
+align-items: center;
+justify-content: start;
+height: 60px;
+padding-left: 20px;
+background-color: #fff;
+}
+.cnDetailedCardButtons {
+display: flex;
+padding: 10px;
+}
+.cnDetailedCarImg {
+height: 300px;
+width: 100%;
+}
+.cnDetailedCardLikes {
+font-size: 14px;
+font-weight: 600;
+padding: 10px;
+}
+.cnDetailedCardComments {
+display: flex;
+flex-direction: column;
+padding: 0px, 10px, 10px, 10px;
+}
+.cnDetailedCardTextarea {
+border: none;
+background-color: #fff;
+padding: 10px;
+outline: none;
+resize: none;
+}
+.cnDetailedCardIcon {
+margin-right: 10px;
+cursor: pointer;
+height: 20px;
+width: 20px;
+}
+.cnDetailedCardComment {
+cursor: pointer;
+height: 20px;
+width: 18px;
+}
+.cnDetailedCardCommentTitle {
+    cursor: pointer;
+    
+}
